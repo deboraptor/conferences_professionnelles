@@ -6,9 +6,9 @@
     <title>Word Clouds</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Times New Roman", cursive, sans-serif;
             text-align: center;
-            background-color: #f4f4f4;
+            background-color: #ffebf0;
             padding: 20px;
         }
         .container {
@@ -19,25 +19,35 @@
         }
         .image-box {
             background: white;
-            padding: 10px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
             text-align: center;
-            width: 300px;
+            width: 320px;
+            transition: transform 0.3s;
+        }
+        .image-box:hover {
+            transform: scale(1.05);
         }
         img {
             max-width: 100%;
             height: auto;
-            border-radius: 5px;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #d1477a;
+            font-size: 30px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
         }
         h2 {
-            font-size: 18px;
+            font-size: 20px;
+            color: #ff69b4;
             margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
-    <h1>Word Clouds</h1>
+    <h1>Word Clouds - Conférences 2025</h1>
     <div class="container">
         <div class="image-box">
             <h2>Conférence n°1 : Géraldine Damnati</h2>
