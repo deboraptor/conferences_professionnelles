@@ -1,6 +1,6 @@
 # Professional Conferences
 
-Welcome to the Professional Conferences repository for the course _professionnal conferences_ in Paris Nanterre University in 2025. This repository contains information and resources related to various professional conferences.
+Welcome to the Professional Conferences repository for the course _professionnal conferences_ in Paris Nanterre University in 2025. This repository contains information and resources related to six professional conferences.
 
 ## Table of Contents
 
@@ -17,8 +17,9 @@ Welcome to the Professional Conferences repository for the course _professionnal
 
 
 ## Introduction
+This project summarizes key insights from NLP-focused conferences led by experts from major companies and research institutions. Each talk covers advancements in AI, semantic analysis, RAG, multimodal NLP, and ethical AI regulation.
 
-
+To enhance understanding, word clouds visualize the most relevant terms, and similarity analysis highlights recurring themes across conferences. This document provides structured summaries, offering a clear view of current trends and innovations in NLP.
 
 ## Conferences
 ### First conference
