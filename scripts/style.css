@@ -98,7 +98,7 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-    background: rgba(20, 20, 20, 0.95); 
+    background: #fc83c0df; 
     box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2);
     overflow-x: hidden;
     transition: width 0.5s ease-in-out;
@@ -109,11 +109,11 @@ img {
 .overlay a {
     padding: 15px 30px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: #ffffff;
     display: flex;
-    align-items: center;
+    align-items: left;
     gap: 10px; 
     transition: 0.3s;
     border-radius: 5px;
