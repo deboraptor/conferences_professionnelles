@@ -48,9 +48,61 @@
             font-size: 18px;
             color: #ff69b4;
         }
+        .overlay {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.85);
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+        .overlay a {
+            padding: 10px 30px;
+            text-decoration: none;
+            font-size: 22px;
+            color: #ffffff;
+            display: block;
+            transition: 0.3s;
+        }
+        .overlay a:hover {
+            color: #ff69b4;
+        }
+        .overlay .closebtn {
+            position: absolute;
+            top: 15px;
+            right: 25px;
+            font-size: 36px;
+        }
+        .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            background-color: #d1477a;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+        }
+        .openbtn:hover {
+            background-color: #ff69b4;
+        }
     </style>
 </head>
 <body>
+    <button class="openbtn" onclick="openNav()">☰ Menu</button>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">🏠 Home</a>
+        <a href="wordclouds.html">🌥 Word Clouds</a>
+        <!--<a href="conferences.html">🎤 Conferences</a>-->
+        <a href="similarity.html">🔍 Similarity Analysis</a>
+    </div>
     <h1>Word Clouds - Conférences 2025</h1>
     <div class="container">
         <div class="image-box">
@@ -58,9 +110,9 @@
             <img src="figures/wc_allconfs.png" alt="Word Cloud all">
         </div>
     </div>
-    <p>
-        
-    </p>
+
+    <p></p>
+
     <div class="container">
         <div class="image-box">
             <h2>Conférence n°1 : Géraldine Damnati</h2>
@@ -94,5 +146,13 @@
     <p>
         C'est intéressant de voir que toutes les conférences ont des mots en commun !
     </p>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "250px";
+        }
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0";
+        }
+    </script>
 </body>
 </html>
