@@ -155,3 +155,25 @@ img {
     background: #ff69b4;
     transform: scale(1.1);
 }
+table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+th {
+    background-color: #ff69b4;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #ffe0eb;
+}
+tr:hover {
+    background-color: #ffb3c6;
+}
