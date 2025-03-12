@@ -140,7 +140,7 @@ img {
 .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background: linear-gradient(to right, #ff69b4, #d1477a);
+    background: #ff69b4;
     color: white;
     padding: 12px 18px;
     border: none;
@@ -152,6 +152,6 @@ img {
     transition: all 0.3s ease;
 }
 .openbtn:hover {
-    background: linear-gradient(to right, #ff1493, #d1477a);
+    background: #ff69b4;
     transform: scale(1.1);
 }
