@@ -98,43 +98,60 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.85);
+    background: rgba(20, 20, 20, 0.95); 
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2);
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: width 0.5s ease-in-out;
     padding-top: 60px;
 }
+
+/* 🌟 Liens de la barre latérale */
 .overlay a {
-    padding: 10px 30px;
+    padding: 15px 30px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: bold;
     color: #ffffff;
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
     transition: 0.3s;
+    border-radius: 5px;
 }
 .overlay a:hover {
-    color: #ff69b4;
+    background-color: #ff69b4;
+    color: white;
 }
+
+/* 🌟 Bouton de fermeture */
 .overlay .closebtn {
     position: absolute;
     top: 15px;
     right: 25px;
     font-size: 36px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.overlay .closebtn:hover {
+    color: #ff69b4;
 }
 
-/* 🌟 Bouton pour ouvrir le menu */
+/* 🌟 Bouton d'Ouverture */
 .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #d1477a;
+    background: linear-gradient(to right, #ff69b4, #d1477a);
     color: white;
-    padding: 10px 15px;
+    padding: 12px 18px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     position: fixed;
     top: 20px;
     left: 20px;
     z-index: 1000;
+    transition: all 0.3s ease;
 }
 .openbtn:hover {
-    background-color: #ff69b4;
+    background: linear-gradient(to right, #ff1493, #d1477a);
+    transform: scale(1.1);
 }
