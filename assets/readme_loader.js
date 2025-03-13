@@ -1,5 +1,5 @@
 async function loadReadme() {
-    const response = await fetch("README.md");
+    const response = await fetch("../README.md");
     const text = await response.text();
 
     let html = text
