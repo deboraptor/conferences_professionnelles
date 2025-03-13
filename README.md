@@ -21,6 +21,9 @@ This project summarizes key insights from NLP-focused conferences led by experts
 
 To enhance understanding, word clouds visualize the most relevant terms, and similarity analysis highlights recurring themes across conferences. This document provides structured summaries, offering a clear view of current trends and innovations in NLP.
 
+**! Important !** 
+Everything presented was created from my notes! They are sometimes inconsistent, but they give a good idea of ​​the content of the conferences.
+
 ## Conferences
 ### First conference
 - **Speaker Name:** Géraldine Damnati
@@ -68,3 +71,4 @@ To enhance understanding, word clouds visualize the most relevant terms, and sim
 ## Wordclouds
 
 ## Smilarity
+This page aims to show the similarity between two documents !
