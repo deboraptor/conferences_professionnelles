@@ -14,7 +14,7 @@ Welcome to the Professional Conferences repository for the course _professionnal
     - [Sixth](#sixth-conference)
 - [Wordclouds](#wordclouds)
 - [Wordfrequencies](#wordfrequencies)
-
+- [Similarities](#similarities)
 
 ## Introduction
 This project summarizes key insights from NLP-focused conferences led by experts from major companies and research institutions. Each talk covers advancements in AI, semantic analysis, RAG, multimodal NLP, and ethical AI regulation.
@@ -22,7 +22,7 @@ This project summarizes key insights from NLP-focused conferences led by experts
 To enhance understanding, word clouds visualize the most relevant terms, and similarity analysis highlights recurring themes across conferences. This document provides structured summaries, offering a clear view of current trends and innovations in NLP.
 
 **! Important !** 
-Everything presented was created from my notes! They are sometimes inconsistent, but they give a good idea of ​​the content of the conferences.
+Everything presented comes directly from my notes! While they may sometimes lack consistency, they provide a solid overview of the conference content. I used ChatGPT to generate a summary and merged it with information from the conference PDFs.
 
 ## Conferences
 ### First conference
@@ -70,3 +70,5 @@ Everything presented was created from my notes! They are sometimes inconsistent,
 ## Wordclouds
 
 ## Wordfrequencies
+
+## Similarities
