@@ -22,6 +22,7 @@ This project summarizes key insights from NLP-focused conferences led by experts
 To enhance understanding, word clouds visualize the most relevant terms, and similarity analysis highlights recurring themes across conferences. This document provides structured summaries, offering a clear view of current trends and innovations in NLP.
 
 **! Important !** 
+
 Everything presented comes directly from my notes! While they may sometimes lack consistency, they provide a solid overview of the conference content. I used ChatGPT to generate a summary and merged it with information from the conference PDFs.
 
 ## Conferences
@@ -68,7 +69,25 @@ Everything presented comes directly from my notes! While they may sometimes lack
     - **Topics:** AI Standardization, Ethical AI, AI Regulation in Defense, Multilingual NLP, AI for Security
 
 ## Wordclouds
+This section contains word clouds generated from each conference transcript. Word clouds visualize the most frequently used terms in a conference, helping to highlight key themes and recurring concepts.
+
+📌 What you can find here:
+
+One global word cloud aggregating all conferences.
+Six individual word clouds (one per conference) showcasing the most prominent words.
 
 ## Wordfrequencies
+This section presents bar charts of the most frequently used words in each conference, allowing for quantitative comparisons.
+
+📌 What you can find here:
+
+A top 10 word frequency chart for all conferences combined.
+Six individual top 10 word frequency charts, showing which terms dominated each conference.
 
 ## Similarities
+This section explores semantic similarities between the different conferences. Instead of just word counts, we use cosine similarity on word embeddings to measure topic overlap.
+
+📌 What you can find here:
+
+A heatmap showing similarity scores between all conferences.
+Analysis of which conferences share the most content-related similarities.
