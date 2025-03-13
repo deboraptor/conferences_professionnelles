@@ -21,6 +21,22 @@
         du lot ! Je me suis dit que ça pouvait être intéressant de les <b>comparer</b> pour voir
         quels mots ont eu le plus d'occurrences dans les différentes conférences.
     </p>
+    <div class="container">
+        <div class="image-box">
+            <h2>Histogramme</h2>
+            <img src="figures/hist_top10_allconfs.png" alt="top 10">
+        </div>
+    </div>
+    <p></p>
+    <div class="container">
+        <div class="image-box">
+            <h2>Matrice</h2>
+            <img src="figures/matrice_top10_allconfs.png" alt="Word Cloud 1">
+        </div>
+    </div>
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img" src="" alt="Agrandissement">
+    </div>
     <script>
         function openNav() {
             document.getElementById("myNav").style.width = "250px";
@@ -28,6 +44,18 @@
         function closeNav() {
             document.getElementById("myNav").style.width = "0";
         }
+        function openLightbox(imgSrc) {
+            document.getElementById("lightbox-img").src = imgSrc;
+            document.getElementById("lightbox").style.display = "flex";
+        }
+        function closeLightbox() {
+            document.getElementById("lightbox").style.display = "none";
+        }
+        document.querySelectorAll(".image-box img").forEach(img => {
+            img.addEventListener("click", function() {
+                openLightbox(this.src);
+            });
+        });
     </script>
 </body>
 </html>
