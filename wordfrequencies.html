@@ -3,59 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Word Clouds</title>
+    <title>Tableaux</title>
     <link rel="stylesheet" href="scripts/style.css">
 </head>
 <body>
     <button class="openbtn" onclick="openNav()">☰ Menu</button>
+    <p></p>
     <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <p></p>
         <a href="index.html">🏠 Home</a>
         <a href="wordclouds.html">☁️ Word Clouds</a>
         <a href="similarity.html">🔍 Similarity Analysis</a>
         <a href="wordfrequencies.html">🎤 Words Frequencies</a>
     </div>
-    <h1>Word Clouds - Conférences 2025</h1>
+    <h1>Graphiques - Conférences 2025</h1>
     <p>
-        On voit bien que pour les 4 premiers wordclouds, le nom de l'entreprise ressort
-        beaucoup, alors que pour les 2 derniers, c'est le mot "recherche" le remplace.
+        Voici le graphique des <b>mots les plus fréquents</b> dans les conférences !
     </p>
-    <p>
-        C'est intéressant de voir que toutes les conférences ont des mots en commun !
+    <p> 
+        On peut voir que les mots <b>"recherche"</b> et <b>"IA"</b> sont les plus fréquents dans les conférences, ce qui
+        n'est pas surprenant étant donné que les conférenciers sont là pour nous partager leur expérience
+        et leur parcours.
     </p>
     <div class="container">
         <div class="image-box">
-            <h2>Word Cloud pour toutes les conférences !</h2>
-            <img src="figures/wc_allconfs.png" alt="Word Cloud all">
+            <h2>Top 10 des mots les plus fréquents ! </h2>
+            <img src="figures/top10.png" alt="top 10">
         </div>
     </div>
-
     <p></p>
-
     <div class="container">
         <div class="image-box">
             <h2>Conférence n°1 : Géraldine Damnati</h2>
-            <img src="figures/wc_conf1.png" alt="Word Cloud 1">
+            <img src="figures/top10_conf1.png" alt="Word Cloud 1">
         </div>
         <div class="image-box">
             <h2>Conférence n°2 : Hélène Flamein</h2>
-            <img src="figures/wc_conf2.png" alt="Word Cloud 2">
+            <img src="figures/top10_conf2.png" alt="Word Cloud 2">
         </div>
         <div class="image-box">
             <h2>Conférence n°3 : Bénédict Goujon</h2>
-            <img src="figures/wc_conf3.png" alt="Word Cloud 3">
+            <img src="figures/top10_conf3.png" alt="Word Cloud 3">
         </div>
         <div class="image-box">
             <h2>Conférence n°4 : Leila Hassani</h2>
-            <img src="figures/wc_conf4.png" alt="Word Cloud 4">
+            <img src="figures/top10_conf4.png" alt="Word Cloud 4">
         </div>
         <div class="image-box">
             <h2>Conférence n°5 : Christophe Servan</h2>
-            <img src="figures/wc_conf5.png" alt="Word Cloud 5">
+            <img src="figures/top10_conf5.png" alt="Word Cloud 5">
         </div>
         <div class="image-box">
             <h2>Conférence n°6 : Lauriane Aufrant</h2>
-            <img src="figures/wc_conf6.png" alt="Word Cloud 6">
+            <img src="figures/top10_conf6.png" alt="Word Cloud 6">
         </div>
     </div>
     <script>

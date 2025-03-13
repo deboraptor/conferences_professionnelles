@@ -13,7 +13,7 @@ Welcome to the Professional Conferences repository for the course _professionnal
     - [Fifth](#fifth-conference)
     - [Sixth](#sixth-conference)
 - [Wordclouds](#wordclouds)
-- [Similarity](#similarity)
+- [Wordfrequencies](#wordfrequencies)
 
 
 ## Introduction
@@ -67,8 +67,6 @@ Everything presented was created from my notes! They are sometimes inconsistent,
     - **Date:** 2025-02-05
     - **Topics:** AI Standardization, Ethical AI, AI Regulation in Defense, Multilingual NLP, AI for Security
 
-
 ## Wordclouds
 
-## Smilarity
-This page aims to show the similarity between two documents !
+## Wordfrequencies
