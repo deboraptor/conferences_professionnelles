@@ -261,3 +261,124 @@ tr:hover {
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
 }
+/* 🌟 Styles généraux */
+body {
+    font-family: "Times New Roman", cursive, sans-serif;
+    text-align: center;
+    background-color: #ffebf0;
+    padding: 20px;
+}
+
+/* 🌟 Conteneur principal */
+.container {
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto; 
+}
+
+/* 🌟 Titres et textes */
+h1 {
+    color: #d1477a;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 24px;
+    color: #d1477a;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    color: #ff69b4;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* 🌟 Styles spécifiques aux sections Word Clouds, Similarities et Word Frequencies */
+.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffe3ec;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    margin: 30px auto;
+}
+
+/* 🌟 Conteneurs spécifiques */
+.wordclouds-container, 
+.similarities-container, 
+.wordfrequencies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* 🌟 Styles des cartes pour les images */
+.wordclouds-box, 
+.similarities-box, 
+.wordfrequencies-box {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+    transition: transform 0.3s;
+}
+
+.wordclouds-box:hover, 
+.similarities-box:hover, 
+.wordfrequencies-box:hover {
+    transform: scale(1.05);
+}
+
+/* 🌟 Images spécifiques */
+.wordclouds-img, 
+.similarities-img, 
+.wordfrequencies-img {
+    all: unset;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* 🌟 Boutons */
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    color: white;
+    background-color: #ff69b4;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #ff1493;
+    transform: scale(1.1);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
