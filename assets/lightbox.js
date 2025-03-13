@@ -9,9 +9,11 @@ function closeLightbox() {
     document.getElementById("lightbox").style.display = "none"; // Cache la lightbox
 }
 
-// Ajoute un événement sur toutes les images avec la classe
-document.querySelectorAll(".wordfrequencies-img").forEach(img => {
-    img.addEventListener("click", function() {
-        openLightbox(this.src); // Ouvre la lightbox avec l'image cliquée
+document.addEventListener("DOMContentLoaded", function () {
+    // Sélectionne toutes les images dans le site (quelles que soient leurs classes)
+    document.querySelectorAll("img").forEach(img => {
+        img.addEventListener("click", function () {
+            openLightbox(this.src); // Ouvre la lightbox avec l'image cliquée
+        });
     });
 });
